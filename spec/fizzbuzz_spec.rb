@@ -2,7 +2,10 @@ require './lib/fizz_buzz'
 #will look for and test the source file in the lib folder, called fizz_buzz.rb
 
 describe 'fizz_buzz' do
-  it "returns 1 if we give 1" do
-    expect(fizzbuzz(1)).to eq(1)
-  end   
+  it "returns fizz if the number is divisible by 3" do
+    expect(fizzbuzz(3)).to eq('fizz')
+  end
+  it "return should accept 9 and return fizz" do 
+    expect(fizzbuzz(9)).to eq('fizz')
+  end
 end
