@@ -1,5 +1,4 @@
 def fizzbuzz(number)
-  binding.pry  
   until number.is_a?(Integer) do  #Fixnum is deprecated in ruby 2.40
     print "enter the number\n"
     number = Integer(gets) rescue nil 
