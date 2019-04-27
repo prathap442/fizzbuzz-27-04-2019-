@@ -9,3 +9,6 @@ def fizzbuzz(number)
     return number  
   end
 end
+
+#we can load the file in the irb and then
+#test the file by using load 'lib/fizz_buzz.rb'
