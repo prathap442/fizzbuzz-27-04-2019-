@@ -16,7 +16,7 @@ describe 'fizz_buzz' do
   end
 
   it "returns buzz when the 15 is inputted" do 
-    expect(fizzbuzz(15).to eq('fizzbuzz!'))
+    expect(fizzbuzz(15)).to eq('fizzbuzz!')
   end
 
   it "returns number when 23 is input" do 
